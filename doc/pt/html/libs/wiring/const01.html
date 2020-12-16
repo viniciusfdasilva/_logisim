@@ -1,0 +1,79 @@
+﻿<html>
+<head>
+<title>Fonte/Terra</title>
+</head>
+
+<body bgcolor="FFFFFF">
+
+<h1><img  align="center" src="../../../../../resources/logisim/icons/power.gif"  width="32" height="32"> 
+    <img  align="center" src="../../../../../resources/logisim/icons/ground.gif" width="32" height="32"> <em>Power/Ground</em></h1>
+
+<p><table>
+<tr><td><strong>Biblioteca:</strong></td>
+	<td><a href="index.html">Conexões</a></td></tr>
+<tr><td><strong>Introdução:</strong></td>
+	<td>2.7.0</td></tr>
+<tr><td valign="top"><strong>Aparência:</strong></td>
+	<td valign="top"><img src="../../../../en/img-libs/power.png" width="17" height="16">
+	<img src="../../../../en/img-libs/ground.png" width="17" height="14"></td></tr>
+</table></p>
+
+<h2>Comportamento</h2>
+
+<p>
+Conduzir um valor simples por um cabo.
+Para o elemento Fonte, indicado por um triângulo, o valor será um
+(ou, se o atributo Bits de Dados for maior do que 1, todos os valores iguais à um).
+Para o elemento Terra, indicado por uma seta formada por três linhas
+paralelas com tamanhos diferentes, esse valor será zero
+(ou, se o atributo Bits de Dados for maior do que 1, todos os valores iguais a zero).
+</p>
+
+<p>
+A mesma funcionalidade pode ser alcançada pelo uso mais versátil do componente
+<a href="constant.html">Constante</a>. A única razão para se preferir o uso dos
+componentes Terra e Fonte é que esses são símbolos eletrônicos padronizados.
+</p>
+
+<h2>Pinos</h2>
+
+<p>
+Há apenas um pino, uma saída cuja largura de bits irá concordar com o atributo 
+Bits de Dados. O componente constantemente irá fornecer à saída o mesmo valor 
+em seu pino: para o componente Terra, a saída será o valor zero,
+e para o componente Fonte, a saída será o valor um.
+</p>
+
+</dl>
+
+<h2>Atributos</h2>
+
+<p>
+Quando o componente for selecionado ou estiver sendo incluído,
+as teclas de Alt-0 até Alt-9 poderão alterar o seu atributo <q>Bits de Dados</q>
+e as setas irão alterar seu atributo <q>Direção</q>.
+</p>
+
+<dl>
+
+
+<dt>Direção</dt>
+<dd>A direção do componente (sua saída em relação à entrada).</dd>
+
+<dt>Bits de Dados</dt>
+<dd>A largura de bits das entradas e saídas do componente.</dd>
+
+</dl>
+
+<h2>Comportamento da ferramenta Testar</h2>
+
+<p>Nenhum.</p>
+
+<h2>Comportamento da ferramenta Texto</h2>
+
+<p>Nenhum.</p>
+
+<p><a href="../index.html">Voltar à <em>Referência para bibliotecas</em></a></p>
+
+</body>
+</html>

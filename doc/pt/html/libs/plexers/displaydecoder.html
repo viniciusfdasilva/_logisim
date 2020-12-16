@@ -1,0 +1,80 @@
+﻿<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="FFFFFF">
+<h1><img src="../../../../../resources/logisim/icons/displaydecoder.gif" align="center" width="32" height="32">
+<em>Decodificador para <em>display</em> de 7-Segmentos</em></h1>
+<p>
+<table>
+<tbody>
+<tr>
+<td><strong>Biblioteca:</strong></td>
+<td><a href="index.html">Plexers</a></td>
+</tr>
+<tr>
+<td><strong>Introdução:</strong></td>
+<td>2.7.1.1 (Fork)</td>
+</tr>
+<tr>
+<td valign="top"><strong>Aparência:</strong></td>
+<td valign="top"><img src="../../../../en/img-libs/displaydecoder.png" width="48" height="87"></td>
+</tr>
+</tbody>
+</table>
+</p>
+<h2>Comportamento</h2>
+<p>
+O componente tem quatro pinos de entrada na sua extremidade oeste,
+cada entrada possui largura de 1 bit e a inferior é a mais significativa.
+Essas quatro entradas receberão o valor em binário e então,
+os setes pinos de saída correspondentes na extremidade leste 
+serão determinados para uso com o <em>display</em> de 7-segmentos.
+</p>
+
+<p>Todas as entradas deverão estar conectadas.</p>
+
+<h2>Pinos (supondo o componente voltado para leste)</h2>
+
+<dl><dt>Extremidade oeste (4 entradas, largura de bits igual a 1) </dt>
+<dd>Valores de entrada, endereçados a partir de A, o primeiro no topo/extremidade oeste,
+até D, sendo essa a do bit mais significativo. 
+</dd>
+<dt>Extremidade leste (7 saídas, largura de bits igual a 1) </dt>
+<dd>
+Valores de saída, endereçados a partir de <em>a</em>, no topo/extremidade leste,
+até <em>g</em>, correspondentes às letras do <em>display</em> de 7-segmentos.
+</dd>
+<dt>Extremidade norte (entrada, largura de bits igual a 1) </dt>
+<dd>Enable: 0 desbilita o componente. </dd>
+</dl>
+
+<h2>Atributos</h2>
+
+<p>
+Quando o componente for selecionado ou estiver sendo incluído,
+as setas poderão alterar o seu atributo <q>Direção</q>.
+</p>
+
+<dl>
+
+<dt>Direção</dt>
+<dd>A direção do componente (sua saída em relação à entrada).</dd>
+
+<dt>Multibit?</dt>
+<dd>Verdadeiro para uma �nica entrada multibit</dt>
+
+</dl>
+
+<h2>Comportamento da ferramenta Testar</h2>
+
+<p>Nenhum.</p>
+
+<h2>Comportamento da ferramenta Texto</h2>
+
+<p>Nenhum.</p>
+
+<p><a href="../index.html">Voltar à <em>Referência para bibliotecas</em></a></p>
+
+</body>
+</html>

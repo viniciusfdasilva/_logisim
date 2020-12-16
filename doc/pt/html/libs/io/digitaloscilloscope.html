@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Osciloscópio Digital</title>
+</head>
+
+<body bgcolor="FFFFFF">
+
+<h1><img src="../../../../../resources/logisim/icons/digitaloscilloscope.gif" align="center" width="32" height="32">
+<em>Osciloscópio Digital</em></h1>
+
+<p><table>
+<tr><td><strong>Biblioteca:</strong></td>
+	<td><a href="index.html">Entrada/Saída</a></td></tr>
+<tr><td><strong>Introdução:</strong></td>
+	<td>2.8.0.0 (Fork)</td></tr>
+<tr><td valign="top"><strong>Aparência:</strong></td>
+	<td valign="top"><img src="../../../../en/img-libs/digitaloscilloscope.png" width="491" height="158"></td></tr>
+</table></p>
+
+<h2>Comportamento</h2>
+
+<p>
+Este componente traça a carta de tempo dos sinais de cada entrada conectada,
+se a habilitação for diferente de 0, atualizada a cada transição de borda do
+<em>clock</em>. Para se evitar problemas com atrasos (em cada pino de saída),
+guardará certa quantidade dos últimos valores da oscilação anterior até a última.
+ </p>
+
+ <h2>Pins</h2>
+
+ <dl>
+ <dt>Extremidade oeste, primeiro pino superior marcado por um triângulo (entrada, largura de bits igual a 1) </dt>
+ <dd>
+ <em>Clock</em> - quando ativado, enquanto o pino de abilitação não for igual a 0,
+o diagrama será atualizado.
+</dd>
+<dt>
+Extremidade oeste, quantidade variável (entradas, largura de bits igual a 1) 
+</dt>
+<dd>Os valores desses sinais serão apresentados na carta de tempo.
+</dd>
+<dt>
+Extremidade sul, pino mais à esquerda (entrada, largura de bits igual a 1) 
+</dt>
+<dd>
+<em>Enable</em> - quando igual a 0, desabilitará o componenete.
+</dd>
+<dt>
+Extremidade sul, segundo pino a partir da esquerda (entrada, largura de bits igual a 1) 
+</dt>
+<dd>
+<em>Clear</em> - quando igual a 1, a carta de tempo será limpa, 
+e todas as outras entradas serão ignoradas.
+</dd>
+</dl>
+
+<h2>Atributos</h2>
+
+<dl><dt>Número de Entradas</dt>
+<dd>O número de entradas a serem traçadas na carta de tempo</dd>
+<dt>Número de estados</dt>
+<dd>A quantidade máxima de estados traçados na carta de tempo para cada entrada</dd>
+<dt>Bordas do <em>Clock</em></dt>
+<dd>Escolha para o desenho de linhas verticais tracejadas para as variações de bordas do <em>clock</em> </dd>
+<dt>Cor de borda </dt>
+<dd>A cor para o texto que aparecerá no terminal.</dd>
+<dt>Rótulo </dt>
+<dd>O texto do rótulo associado ao componente. </dd>
+<dt>Localização do rótulo </dt>
+<dd>A localização do rótulo relativa ao componente. </dd>
+<dt>Fonte do rótulo</dt>
+<dd>Tipo de fonte a ser usada no rótulo. </dd>
+<dt>Cor do rótulo </dt>
+<dd>Cor a ser utilizada no rótulo. </dd>
+</dl>
+
+<h2>Comportamento da ferramenta Testar</h2>
+<p>Nenhum.</p>
+
+<h2>Comportamento da ferramenta Texto</h2>
+<p>
+Permite que o rótulo associado ao componente possa ser editado.
+</p>
+<p><a href="../index.html">Voltar à <em>Referência para bibliotecas</em></a></p>
+</body>
+</html>

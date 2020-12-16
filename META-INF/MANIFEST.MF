@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_11 (Sun Microsystems Inc.)
+Class-Path: libs/colorpicker.jar libs/fontchooser.jar libs/jh.jar libs/MRJAdapter.jar
+Main-Class: com.cburch.logisim.Main
+

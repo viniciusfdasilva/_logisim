@@ -1,0 +1,19 @@
+Instructions:
+
+Instale o Wine na sua máquina
+
+Entre no terminal digite:
+
+1 - $wine cmd
+
+2 - $cd z:
+
+3 - $cd var
+
+4 - $cd logisim_/
+
+5 - $makeLogisimJar.bat
+
+6 - $exit
+
+7 - $sh makeLogisim.sh

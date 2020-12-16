@@ -1,0 +1,7 @@
+# !/bin/bash
+cd /Desktop/logisim_/
+echo '\nCÓPIE E COLE NO TERMINAL A STRING makeLogisimJar.bat\n'
+wine cmd
+cd z:
+cd var
+
